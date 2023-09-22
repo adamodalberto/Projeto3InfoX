@@ -5,7 +5,7 @@ $base = "dbSIC0217";
 $usuario = "SIC0217user";
 $senha = "alunos";
 
-// Conexão com o banco de dados
+// Conexão com o banco de dados - Teste
 try {
 	$conn = new PDO("mysql:host=$servidor;dbname=$base", $usuario, $senha);
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
